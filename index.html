@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fitness Website</title>
+    <link rel="stylesheet" href="C:\Users\91951\Desktop\Gym\styles.css">
+    <style>
+        /* Home Page Animations */
+        .intro {
+            animation: fadeInUp 1.5s ease-in-out;
+        }
+
+        .services, .testimonials, .classes {
+            animation: fadeInUp 1.5s ease-in-out;
+            margin-top: 50px;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 50px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .intro h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .intro button {
+            background-color: #fff;
+            color: #4CAF50;
+            border: 2px solid #4CAF50;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .intro button:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .services, .testimonials, .classes {
+            text-align: center;
+            padding: 50px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .service-item, .testimonial-item, .class-item {
+            margin: 20px;
+            display: inline-block;
+            width: 30%;
+            text-align: left;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .service-item h3, .testimonial-item h3, .class-item h3 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        .service-item p, .testimonial-item p, .class-item p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Gym</h1>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\91951\Desktop\Gym\index.html">Home</a></li>
+                <li><a href="C:\Users\91951\Desktop\Gym\services.html">Services</a></li>
+                <li><a href="C:\Users\91951\Desktop\Gym\classes.html">Classes</a></li>
+                <li><a href="C:\Users\91951\Desktop\Gym\testimonials.html">Testimonials</a></li>
+                <li><a href="C:\Users\91951\Desktop\Gym\contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <div class="intro">
+        <h1>Get Fit, Stay Healthy!</h1>
+        <p>Your fitness journey starts here. Whether you're a beginner or an experienced athlete, our gym has everything you need to achieve your goals.</p>
+        <button>Join Now</button>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Personal Training</h3>
+            <p>Our personal trainers are dedicated to helping you reach your fitness goals with customized workout plans.</p>
+        </div>
+        <div class="service-item">
+            <h3>Group Fitness Classes</h3>
+            <p>Join our high-energy group fitness classes for a fun, motivating environment to work out with others.</p>
+        </div>
+        <div class="service-item">
+            <h3>Nutrition Counseling</h3>
+            <p>Get expert advice on nutrition from our certified nutritionists to support your fitness goals.</p>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-item">
+            <h3>John Doe</h3>
+            <p>"This gym has completely transformed my life. The trainers are incredibly helpful, and the community is so supportive!"</p>
+        </div>
+        <div class="testimonial-item">
+            <h3>Jane Smith</h3>
+            <p>"I love the variety of classes available here. I’ve never been in better shape, and it’s all thanks to the awesome team!"</p>
+        </div>
+        <div class="testimonial-item">
+            <h3>Mike Johnson</h3>
+            <p>"The gym’s atmosphere is amazing. It's a place where I feel motivated and pushed to give my best every day."</p>
+        </div>
+    </div>
+
+    <!-- Classes Section -->
+    <div class="classes">
+        <h2>Our Fitness Classes</h2>
+        <div class="class-item">
+            <h3>Yoga</h3>
+            <p>Relax and rejuvenate with our calming yoga classes, perfect for all levels of experience.</p>
+        </div>
+        <div class="class-item">
+            <h3>Zumba</h3>
+            <p>Get your heart pumping with our energetic Zumba classes – a fun way to burn calories and tone your body!</p>
+        </div>
+        <div class="class-item">
+            <h3>HIIT</h3>
+            <p>Push your limits with our High-Intensity Interval Training sessions that will challenge your strength and endurance.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Gym Fitness. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
